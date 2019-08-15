@@ -8,7 +8,7 @@ lib: builder
 The Form.io renderer allows for the creation of Custom components. These can be created by extending the base components within Form.io and then registering them within the core renderer. This can be done as follows.
 
 <div class="alert alert-info">
-<p>For an <strong>ES6</strong> version of this component, check out the following - <a href="https://github.com/formio/angular-demo/blob/master/src/app/components/CheckMatrix.js">ES6 CheckMatrix</a></p>
+<p>For an <strong>ES6</strong> version of this component, check out the following - <a href="https://github.com/formio/angular-demo/blob/master/src/app/components/CheckMatrix.ts">ES6 CheckMatrix</a></p>
 </div>
 
 ```html
