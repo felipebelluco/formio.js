@@ -1,7 +1,7 @@
 {
-  "name": "formiojs",
-  "version": "3.25.1",
-  "description": "Common js library for client side interaction with <form.io>",
+  "name": "@fbelluco/sins-formio",
+  "version": "1.0.0",
+  "description": "Fork da biblioteca Form.io.",
   "main": "index.js",
   "files": [
     "dist",
@@ -31,29 +31,11 @@
     "url": "git+https://github.com/formio/formio.js.git"
   },
   "contributors": [
-    {
-      "name": "Travis Tidwell",
-      "github": "https://github.com/travist",
-      "email": "travis@form.io"
-    },
-    {
-      "name": "Randall Knutson",
-      "github": "https://github.com/randallknutson",
-      "email": "randall@form.io"
-    },
-    {
-      "name": "Doug Lee",
-      "github": "https://github.com/douglaselee",
-      "email": "douglaselee@comcast.net"
-    },
-    {
-      "name": "Eric Alter",
-      "email": "neolanders@hotmail.com"
-    },
-    {
-      "name": "Guillaume SMAHA",
-      "email": "guillaume.smaha@gmail.com"
-    }
+    "Travis Tidwell <travis@form.io>",
+    "Randall Knutson <randall@form.io>",
+    "Doug Lee <douglaselee@comcast.net>",
+    "Eric Alter <neolanders@hotmail.com>",
+    "Guillaume SMAHA <guillaume.smaha@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -112,7 +94,7 @@
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.16.0",
     "eslint-config-formio": "^1.1.4",
-    "fetch-mock": "formio/fetch-mock#7.3.3-formio.1",
+    "fetch-mock": "github:formio/fetch-mock#7.3.3-formio.1",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -143,5 +125,17 @@
     "webpack": "^4.39.1",
     "webpack-stream": "^5.2.1",
     "written-number": "^0.9.1"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "forms",
+    "dynamic",
+    "forms",
+    "formio"
+  ],
+  "author": "Felipe Belluco"
 }

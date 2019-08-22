@@ -531,7 +531,7 @@ export default class WebformBuilder extends Webform {
     if (this.dialog) {
       this.dialog.close();
     }
-    this.dialog = this.createModal(componentCopy.name);
+    this.dialog = this.createModal(this.options.editForm.appendTo);
     const formioForm = this.ce(&apos;div&apos;);
     this.componentPreview = this.ce(&apos;div&apos;, {
       class: &apos;component-preview&apos;

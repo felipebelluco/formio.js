@@ -660,7 +660,9 @@ export default class BaseComponent extends Component {
     this.setupValueElement(this.valueElement);
   }
 
-  createModal() {
+  createModal(appendTo) {
+    const appendToContainer = (appendTo && document.querySelector(appendTo))
+      ? document.querySelector(appendTo) : document.body;
     const modalBody = this.ce('div');
     const modalOverlay = this.ce('div', {
       class: 'formio-dialog-overlay'
@@ -693,16 +695,16 @@ export default class BaseComponent extends Component {
       dialog.close();
     });
     this.addEventListener(dialog, 'close', () => {
-      this.removeChildFrom(dialog, document.body);
+      this.removeChildFrom(dialog, appendToContainer);
     });
-    document.body.appendChild(dialog);
-    document.body.classList.add('modal-open');
+    appendToContainer.appendChild(dialog);
+    appendToContainer.classList.add('modal-open');
     dialog.body = modalBody;
     dialog.bodyContainer = modalBodyContainer;
     dialog.close = () => {
-      document.body.classList.remove('modal-open');
+      appendToContainer.classList.remove('modal-open');
       dialog.dispatchEvent(new CustomEvent('close'));
-      this.removeChildFrom(dialog, document.body);
+      this.removeChildFrom(dialog, appendToContainer);
     };
     return dialog;
   }
