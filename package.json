@@ -1,6 +1,6 @@
 {
   "name": "@fbelluco/sins-formio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork da biblioteca Form.io.",
   "main": "index.js",
   "files": [
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/formio/formio.js.git"
+    "url": "git+https://github.com/felipebelluco/formio.js.git"
   },
   "contributors": [
     "Travis Tidwell <travis@form.io>",
@@ -39,9 +39,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/formio/formio.js/issues"
+    "url": "https://github.com/felipebelluco/formio.js/issues"
   },
-  "homepage": "https://github.com/formio/formio.js#readme",
+  "homepage": "https://github.com/felipebelluco/formio.js/issues#readme",
   "dependencies": {
     "browser-cookies": "^1.2.0",
     "choices.js": "^7.0.0",
@@ -133,8 +133,7 @@
   },
   "keywords": [
     "forms",
-    "dynamic",
-    "forms",
+    "dynamic forms",
     "formio"
   ],
   "author": "Felipe Belluco"
