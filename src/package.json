@@ -1,11 +1,11 @@
 {
-  "name": "formiojs",
+  "name": "@fbelluco/sins-formio",
   "version": "",
   "description": "Common js library for client side interaction with <form.io>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/formio/formio.js.git"
+    "url": "git+https://github.com/felipebelluco/formio.js.git"
   },
   "contributors": [
     {
@@ -34,8 +34,8 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/formio/formio.js/issues"
+    "url": "https://github.com/felipebelluco/formio.js/issues"
   },
-  "homepage": "https://github.com/formio/formio.js#readme",
+  "homepage": "https://github.com/felipebelluco/formio.js#readme",
   "dependencies": {}
 }
