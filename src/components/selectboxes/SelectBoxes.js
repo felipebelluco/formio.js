@@ -123,7 +123,7 @@ export default class SelectBoxesComponent extends RadioComponent {
         return total;
       }, 0);
 
-      if (count >= maxCount) {
+      if (count > maxCount) {
         this.inputs.forEach(item => {
           if (!item.checked) {
             item.disabled = true;
