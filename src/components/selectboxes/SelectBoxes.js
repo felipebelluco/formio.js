@@ -131,7 +131,7 @@ export default class SelectBoxesComponent extends RadioComponent {
         });
         const message = this.component.maxSelectedCountMessage
           ? this.component.maxSelectedCountMessage
-          : `You can only select up to ${maxCount} items to continue.`;
+          : `Você deve escolher no máximo ${maxCount} itens para continuar.`;
         this.setCustomValidity(message);
         return false;
       }
