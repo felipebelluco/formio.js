@@ -241,7 +241,7 @@ export default class FileComponent extends BaseComponent {
     // Input needs to be in DOM and "visible" (opacity 0 is fine) for IE to display file dialog.
     return this.ce('input', {
       type: 'file',
-      style: 'opacity: 0; position: absolute;',
+      style: 'opacity: 1; position: absolute; height: 0;',
       tabindex: -1, // prevent focus
       onChange: () => {
         this.upload(this.hiddenFileInputElement.files);

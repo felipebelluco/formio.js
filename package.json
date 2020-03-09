@@ -1,6 +1,6 @@
 {
   "name": "@fbelluco/sins-formio",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Fork da biblioteca Form.io.",
   "main": "index.js",
   "files": [
